@@ -1,1 +1,3 @@
 module github.com/DDClark/GoExamples/MergeSort
+
+go 1.12
