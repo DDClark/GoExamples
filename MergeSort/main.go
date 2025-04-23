@@ -1,6 +1,8 @@
 package main // import "github.com/DDClark/GoExamples/MergeSort"
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func merge(l []int, r []int) (result []int) {
 	size := len(l) + len(r)
@@ -36,7 +38,7 @@ func merge(l []int, r []int) (result []int) {
 	return
 }
 
-func mergeSort(input []int) []int {
+func mergeSort(input []int) []int {k
 	size := len(input)
 	fmt.Println(input)
 	if size == 1 {
